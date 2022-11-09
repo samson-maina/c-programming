@@ -1,0 +1,26 @@
+// program to excute an addational class with 3 data memberand a member function
+#include <iostream>
+using namespace std;
+//MAIN FUNCTION
+int main()
+{
+//variable initialitation
+    int m[2][3][3]={
+        {{1,2,3},{4,5,6},{7,8,9 }},
+        {{10,11,12},{13,14,15},{16,17,18}}
+        };
+        int a,b,c;
+//use of neste for loop
+    for(a=0;a<2;a++)
+    {
+        for (b=0;b<3;b++)
+        {
+            for (c=0;c<3;c++)
+            {
+//print out
+                cout<<m[a][b][c]<<",";
+            }
+        }
+            }
+                return 0;
+}
